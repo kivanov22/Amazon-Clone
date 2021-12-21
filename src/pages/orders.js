@@ -2,7 +2,6 @@ import { getSession, useSession } from "next-auth/client";
 import db from "../../firebase.js";
 import Header from "../components/Header.js"
 import moment from 'moment';
-import { getDocs } from "firebase/firestore";
 import Order from "../components/Order.js";
 
 function Orders({ orders }) {
